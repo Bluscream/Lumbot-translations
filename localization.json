@@ -10,8 +10,8 @@
         "melonscanner.vrchat.oldemmvrc": "This is an old log from emmVRC and should be deleted. Please upload your MelonLoader/Latest.log or update MelonLoader to 0.4.0 if missing.",
         "melonscanner.logautocheckresult": "Log Autocheck Result:",
         
-        "melonscanner.reportmessage.logdayolds": "this log is %s days old",
-        "melonscanner.reportmessage.logdayoldsreupload": "this log is %s days old. Reupload your log from MelonLoader/Latest.log",
+        "melonscanner.reportmessage.logdayolds": "This log is %s days old",
+        "melonscanner.reportmessage.logdayoldsreupload": "This log is %s days old. Reupload your log from MelonLoader/Latest.log",
         "melonscanner.reportmessage.copy": "You sent a copy of the console logs. Please type `!logs` to know where to find the complete game logs.",
         "melonscanner.reportmessage.alpha": "You are running an alpha version of MelonLoader.",
         "melonscanner.reportmessage.notsupported": "%s isn't officially supported by the autochecker or doesn't have a mod version api. Mod versions will not be verified.",
