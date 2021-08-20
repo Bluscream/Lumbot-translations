@@ -80,7 +80,6 @@
         
         "melonscanner.partiallog.fieldname": "Partial Log:",
         "melonscanner.partiallog.field": "- MelonLoader either crashed or paused by the console being clicked on.\nPlease push any key on console to continue, reinstall MelonLoader, or verify integrity of your game."
-
     },
     "fr": {
         "melonscanner.unidentifiederrors.fieldname": "Il y a des erreurs non-identifiées",
@@ -163,5 +162,87 @@
         
         "melonscanner.partiallog.fieldname": "Logs Partielles:",
         "melonscanner.partiallog.field": "- MelonLoader a soit planté soit a été mis en pause par un click dans la console.\nVeuillez appuyer sur n'importe quelle touche dans la console pour continuer, réinstallez MelonLoader, ou vérifiez l'intégrité de votre jeu."
+    },
+    "de": {
+        "melonscanner.unidentifiederrors.fieldname": "Es gibt nicht identifizierte Fehler",
+        "melonscanner.unidentifiederrors.field": "- Bitte warten Sie, während sie jemand überprüft",
+
+        "melonscanner.noissue.fieldname": "Keine Probleme gefunden",
+        "melonscanner.noissue.field": "- Wenn Sie Probleme hatten, sagen Sie dies bitte und warten Sie, bis jemand das Protokoll überprüft hat",
+
+        "melonscanner.onelogatatime": "Bitte senden Sie jeweils ein Protokoll.",
+        "melonscanner.vrchat.oldemmvrc": "Dies ist ein altes Protokoll von emmVRC und sollte gelöscht werden. Bitte laden Sie Ihr MelonLoader/Latest.log hoch oder aktualisieren Sie MelonLoader auf 0.4.0, falls es fehlt.",
+        "melonscanner.logautocheckresult": "Ergebnis der automatischen Überprüfung protokollieren:",
+        
+        "melonscanner.reportmessage.logdayolds": "Dieses Protokoll ist %s Tage alt",
+        "melonscanner.reportmessage.logdayoldsreupload": "Dieses Protokoll ist %s Tage alt. Laden Sie Ihr Protokoll erneut von MelonLoader/Latest.log hoch",
+        "melonscanner.reportmessage.copy": "Sie haben eine Kopie der Konsolenprotokolle gesendet. Bitte geben Sie `!logs` ein, um zu erfahren, wo Sie die vollständigen Spielprotokolle finden.",
+        "melonscanner.reportmessage.alpha": "Sie verwenden eine Alpha-Version von MelonLoader.",
+        "melonscanner.reportmessage.notsupported": "%s wird nicht offiziell vom Autochecker unterstützt oder hat keine Mod-Versions-API. Mod-Versionen werden nicht überprüft.",
+
+        "melonscanner.readerror.fieldname": "Protokollformat:",
+        "melonscanner.readerror.field": "Fehler beim Lesen des Protokolls. Bitte bearbeiten Sie das Protokoll nicht und laden Sie das Originalprotokoll erneut hoch.",
+
+        "melonscanner.mloutdated.fieldname": "Warnung:",
+        "melonscanner.mloutdated.uptoalpha": "Bitte aktualisieren Sie MelonLoader mit dem [offiziellen Installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe) und aktivieren Sie dann `Show ALPHA Pre-Releases`\nVRChat-Modding erfordert MelonLoader %1$s freigegeben nach **%2$s.**",
+        "melonscanner.mloutdated.upalpha": "Bitte installieren Sie MelonLoader mit dem [offiziellen Installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe) neu.\nVRChat-Modding erfordert MelonLoader %1$s, das nach **% veröffentlicht wurde 2$s.**",
+        "melonscanner.mloutdated.upbeta": "Bitte aktualisieren Sie MelonLoader mit dem [offiziellen Installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe)\nDer installierte MelonLoader ist veraltet: %1$s -> % 2$s.",
+        "melonscanner.mloutdated.downgrade": "Bitte stufen Sie MelonLoader auf %1$s herunter. Wir können nicht garantieren, dass Vorabversionen zuverlässig funktionieren.",
+
+        "melonscanner.vrcversioncheck.outdated": "Sie verwenden eine veraltete Version von VRChat: `%1$s` -> `%2$s`",
+        "melonscanner.vrcversioncheck.overdated": "Sie verwenden eine neuere Version von VRChat als wir empfehlen: `%1$s` -> `%2$s`",
+
+        "melonscanner.knownerrors.fieldname": "Bekannte Fehler:",
+
+        "melonscanner.duplicatemods.fieldname": "Doppelte Mods:",
+        "melonscanner.duplicatemods.more": "- und %s mehr...",
+        "melonscanner.duplicatemods.warning": "- Es ist bekannt, dass duplizierte Mods MelonLoader zum Absturz bringen. Stellen Sie sicher, dass sich sowohl im Mods- als auch im Plugins-Ordner nur eine Kopie befindet.",
+
+        "melonscanner.corruptedmods.fieldname": "Beschädigte Mods:",
+        "melonscanner.corruptedmods.more": "- und %s mehr...",
+        "melonscanner.corruptedmods.warning": "Diese Mods konnten entweder nicht richtig heruntergeladen werden oder wurden beschädigt. Bitte laden Sie diese Mods erneut herunter und versuchen Sie es erneut.",
+
+        "melonscanner.missingmods.fieldname": "Fehlende Abhängigkeiten:",
+        "melonscanner.missingmods.more": "- und %s mehr...",
+
+        "melonscanner.incompatibleMods.fieldname": "Inkompatible Mods:",
+        "melonscanner.incompatibleMods.more": "- und %s mehr...",
+        
+        "melonscanner.brokenmods.fieldname": "Derzeit defekte Mods:",
+        "melonscanner.brokenmods.more": "- und %s mehr...",
+
+        "melonscanner.oldmods.fieldname": "Alte oder ungültige Mods:",
+        "melonscanner.oldmods.more": "- und %s mehr...",
+
+        "melonscanner.unknownmods.fieldname": "Nicht verifizierte/unbekannte Mods:",
+        "melonscanner.unknownmods.more": "- und %s mehr...",
+        "melonscanner.unknownmods.modnamewithauthor": "%1$s **von** %2$s",
+
+        "melonscanner.misplacedmods.fieldname": "Verlegte Mods:",
+        "melonscanner.misplacedmods.warning": "Bitte verschiebe die folgenden Mods aus deinen Plugins in den Mods-Ordner.",
+        "melonscanner.misplacedmods.more": "- und %s mehr...",
+
+        "melonscanner.misplacedplugins.fieldname": "Falsch platzierte Plugins:",
+        "melonscanner.misplacedplugins.warning": "Bitte verschiebe die folgenden Plugins aus deinen Mods in den Plugins-Ordner.",
+        "melonscanner.misplacedplugins.more": "- und %s mehr...",
+
+        "melonscanner.outdatedmods.fieldname": "Veraltete Mods:",
+        "melonscanner.outdatedmods.vrcmuwarning": "- Ziehen Sie in Betracht, [VRCModUpdater](https://s.slaynash.fr/VRCMULatest) zu beziehen und in den Ordner **Plugins** zu verschieben",
+        "melonscanner.outdatedmods.tldmuwarning": "- Ziehen Sie in Erwägung, [AutoUpdatingPlugin](https://github.com/ds5678/AutoUpdatingPlugin/releases/latest/download/AutoUpdatingPlugin.dll) zu besorgen und in den Ordner **Plugins** zu verschieben",
+        "melonscanner.outdatedmods.more": "- und %s mehr...",
+        
+        "melonscanner.modsthrowingerrors.fieldname": "Mods mit Fehlern:",
+        "melonscanner.modsthrowingerrors.more": "- und %s mehr...",
+
+        "melonscanner.othererrors.fieldname": "Andere Fehler:",
+        "melonscanner.othererrors.partiallog": "- Sie haben ein teilweises Protokoll. Entweder ist MelonLoader abgestürzt oder Sie haben den Auswahlmodus in der MelonLoader-Konsole aufgerufen und müssen eine beliebige Taste drücken.",
+        "melonscanner.othererrors.nomods": "- Du hast keine Mods in deinem Mods-Ordner installiert.",
+        "melonscanner.othererrors.nomodsemmvrc": "- Du hast keine Mods in deinem Mods-Ordner installiert. Sie können [emmVRCLoader](https://dl.emmvrc.com/downloads/emmVRCLoader.dll) von <#707545823302647818> herunterladen.",
+        "melonscanner.othererrors.nomodsvrcmg": "- Du hast keine Mods in deinem Mods-Ordner installiert. Sehen Sie sich <#854948679915012126> an, um einige Mods zu installieren.",
+        "melonscanner.othererrors.nomodstld": "- Du hast keine Mods in deinem Mods-Ordner installiert. [*Nur ZUUL*](https://xpazeman.com/tld-mod-list/)",
+        "melonscanner.othererrors.unidentifiederrors": "- Es gibt einige nicht identifizierte Fehler. Bitte warten Sie, bis ein Moderator oder ein Helfer die Datei manuell überprüft.",
+        
+        "melonscanner.partiallog.fieldname": "Teilprotokoll:",
+        "melonscanner.partiallog.field": "- MelonLoader ist entweder abgestürzt oder wurde durch Klicken auf die Konsole angehalten.\nBitte drücken Sie eine beliebige Taste auf der Konsole, um fortzufahren, installieren Sie MelonLoader neu oder überprüfen Sie die Integrität Ihres Spiels."
     }
 }
