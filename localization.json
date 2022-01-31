@@ -37,7 +37,7 @@
 
         "melonscanner.corruptedmods.fieldname": "Corrupted Mods:",
         "melonscanner.corruptedmods.more": "- and %s more...",
-        "melonscanner.corruptedmods.warning": "These mods either failed to download properly or became corrupted. Please redownload these mods and try again.",
+        "melonscanner.corruptedmods.warning": "These mods failed to match API hash, they either failed to download properly or became corrupted. Please redownload these mods and try again.",
 
         "melonscanner.missingmods.fieldname": "Missing Dependencies:",
         "melonscanner.missingmods.more": "- and %s more...",
@@ -67,6 +67,8 @@
         "melonscanner.outdatedmods.vrcmuwarning": "- Consider getting [VRCModUpdater](https://s.slaynash.fr/VRCMULatest) and move it to the **Plugins** folder",
         "melonscanner.outdatedmods.tldmuwarning": "- Consider getting [AutoUpdatingPlugin](https://github.com/ds5678/AutoUpdatingPlugin/releases/latest/download/AutoUpdatingPlugin.dll) and move it to the **Plugins** folder",
         "melonscanner.outdatedmods.more": "- and %s more...",
+		
+		"melonscanner.newermods.fieldname": "Newer Mods than in the API:",
 
         "melonscanner.modsthrowingerrors.fieldname": "Mods With Errors:",
         "melonscanner.modsthrowingerrors.more": "- and %s more...",
