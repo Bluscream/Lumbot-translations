@@ -67,8 +67,9 @@
         "melonscanner.outdatedmods.vrcmuwarning": "- Consider getting [VRCModUpdater](https://s.slaynash.fr/VRCMULatest) and move it to the **Plugins** folder",
         "melonscanner.outdatedmods.tldmuwarning": "- Consider getting [AutoUpdatingPlugin](https://github.com/ds5678/AutoUpdatingPlugin/releases/latest/download/AutoUpdatingPlugin.dll) and move it to the **Plugins** folder",
         "melonscanner.outdatedmods.more": "- and %s more...",
-		
-		"melonscanner.newermods.fieldname": "Newer Mods than in the API:",
+
+        "melonscanner.outdatedplugins.fieldname": "Outdated Plugins:",
+        "melonscanner.newermods.fieldname": "Newer Mods than in the API:",
 
         "melonscanner.modsthrowingerrors.fieldname": "Mods With Errors:",
         "melonscanner.modsthrowingerrors.more": "- and %s more...",
@@ -329,7 +330,7 @@
         "melonscanner.othererrors.nomodsvrcmg": "- Nie zainstalowałeś jeszcze żadnych modów. Sprawdź <#854948679915012126> by znaleźć jakieś mody do zainstalowania.",
         "melonscanner.othererrors.nomodstld": "- Nie zainstalowałeś jeszcze żadnych modów. [*Tylko ZUUL*](https://xpazeman.com/tld-mod-list/)",
         "melonscanner.othererrors.unidentifiederrors": "- Znaleziono niezidentyfikowane błędy. Poczekaj aż jakiś moderator albo pomocnik manualnie sprawdzi twój plik.",
-        
+
         "melonscanner.partiallog.fieldname": "Log nie jest w Komplecie:",
         "melonscanner.partiallog.field": "- Możliwe że MelonLoader scrashował albo został spauzowany przez zaznaczony tekst we konsolce.\nSpróbuj nacisnąć dowolny klawisz w konsolce by wznowić proces, przeinstaluj MelonLoader'a, albo zweryfikuj pliki gry."
     }

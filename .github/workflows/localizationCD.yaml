@@ -17,11 +17,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Upload to server
-        uses: wei/curl@v1.1.1
-        with:
-          args: |
-            -F 'localization=@localization.json' \
-            https://${{ secrets.SSH_HOST }}/uploadlum.php
+        run: |
+          curl \
+          -F 'localization=@localization.json' \
+          https://${{ secrets.SSH_HOST }}/uploadlum.php
+        shell: bash
       
       - name: Running remote script
         uses: garygrossgarten/github-action-ssh@release
