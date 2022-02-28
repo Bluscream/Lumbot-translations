@@ -70,6 +70,7 @@
 
         "melonscanner.outdatedplugins.fieldname": "Outdated Plugins:",
         "melonscanner.newermods.fieldname": "Newer Mods than in the API:",
+        "melonscanner.haspendingmods.fieldname": "Has Pending Mods:",
 
         "melonscanner.modsthrowingerrors.fieldname": "Mods With Errors:",
         "melonscanner.modsthrowingerrors.more": "- and %s more...",
