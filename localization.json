@@ -17,7 +17,7 @@
         "melonscanner.reportmessage.notsupported": "%s isn't officially supported by the autochecker or doesn't have a mod version api. Mod versions will not be verified.",
 
         "melonscanner.readerror.fieldname": "Log Format:",
-        "melonscanner.readerror.field": "Error reading Log. Please do not edit the log and reupload the original log.",
+        "melonscanner.readerror.field": "Log file may be corrupted. Please do not edit the log and reupload the original log.",
 
         "melonscanner.mloutdated.fieldname": "Warning:",
         "melonscanner.mloutdated.uptoalpha": "Please update MelonLoader using the [official installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe) then check `Show ALPHA Pre-Releases`\nVRChat modding requires MelonLoader %1$s released after **%2$s.**",
@@ -84,7 +84,9 @@
         "melonscanner.othererrors.unidentifiederrors": "- There are some unidentified errors. Please wait for a moderator or a helper to manually check the file.",
         
         "melonscanner.partiallog.fieldname": "Partial Log:",
-        "melonscanner.partiallog.field": "- MelonLoader either crashed or paused by the console being clicked on.\nPlease push any key on console to continue, reinstall MelonLoader, or verify integrity of your game."
+        "melonscanner.partiallog.field": "- MelonLoader either crashed or paused by the console being clicked on.\nPlease push any key on console to continue, reinstall MelonLoader, or verify integrity of your game.",
+        "melonscanner.pirate.fieldname": "Pirated Game:",
+        "melonscanner.pirate.field": "Please purchase the game if you would like assistance."
     },
     "fr": {
         "melonscanner.unidentifiederrors.fieldname": "Il y a des erreurs non-identifiées",
