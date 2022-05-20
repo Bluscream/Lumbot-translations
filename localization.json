@@ -4,7 +4,7 @@
         "melonscanner.unidentifiederrors.field": "- please wait while someone checks them",
 
         "melonscanner.noissue.fieldname": "No issues found",
-        "melonscanner.noissue.field": "- If you had issues please say so and wait for someone to check the log",
+        "melonscanner.noissue.field": "- If you had issues, please say so and wait for someone to help you",
 
         "melonscanner.onelogatatime": "Please send one log at a time.",
         "melonscanner.vrchat.oldemmvrc": "This is an old log from emmVRC and should be deleted. Please upload your MelonLoader/Latest.log or update MelonLoader to 0.4.0 if missing.",
@@ -27,7 +27,7 @@
         "melonscanner.mloutdated.downgrade": "Please downgrade MelonLoader to %1$s. We can not guarantee that prerelease versions will work reliably. [official installer](https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe)",
 
         "melonscanner.vrcversioncheck.outdated": "You are running an outdated version of VRChat: `%1$s` -> `%2$s`",
-        "melonscanner.vrcversioncheck.overdated": "You are running a newer version of VRChat than we recommend: `%1$s` -> `%2$s`",
+        "melonscanner.vrcversioncheck.overdated": "You are running a newer version of VRChat than we recommend: `%1$s` -> `%2$s` Mods are not guaranteed to work in betas.",
 
         "melonscanner.knownerrors.fieldname": "Known Errors:",
 
@@ -82,7 +82,7 @@
         "melonscanner.othererrors.nomodsvrcmg": "- You have no mods installed in your Mods folder. Take a look at <#854948679915012126> for some mods to install.",
         "melonscanner.othererrors.nomodstld": "- You have no mods installed in your Mods folder. [*Only ZUUL*](https://xpazeman.com/tld-mod-list/)",
         "melonscanner.othererrors.unidentifiederrors": "- There are some unidentified errors. Please wait for a moderator or a helper to manually check the file.",
-        
+
         "melonscanner.partiallog.fieldname": "Partial Log:",
         "melonscanner.partiallog.field": "- MelonLoader either crashed or paused by the console being clicked on.\nPlease push any key on console to continue, reinstall MelonLoader, or verify integrity of your game.",
         "melonscanner.pirate.fieldname": "Pirated Game:",
