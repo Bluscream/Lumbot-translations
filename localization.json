@@ -49,7 +49,7 @@
         "melonscanner.brokenmods.more": "- and %s more...",
 
         "melonscanner.modretired.fieldname": "Currently Retired Mods:",
-        "melonscanner.modretired.field": "The following mods are either no longer being maintained or needed due to VRChat updates and should be removed.",
+        "melonscanner.modretired.field": "The following mods are either no longer being maintained or needed due to game update and should be removed.",
         "melonscanner.modpending.field": "The following mods have an update waiting for review. This may bring new features or bug fixes, but it does not mean the below mods are broken.",
 
         "melonscanner.oldmods.fieldname": "Old or Invalid Mods:",
